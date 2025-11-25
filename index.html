@@ -1,35 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Labubu Website</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <title>Aidan Burger</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-  <!-- elegant dark gradient -->
-  <div class="dark-bg"></div>
-
   <header>
-    <div class="container header">
-      <div class="logo">Labubu<span>Web</span></div>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <a href="#contact" class="btn">Get Started</a>
-    </div>
+    <div class="logo">Aidan Burger</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <section id="home" class="hero">
-    <div class="container hero-content">
-      <div class="hero-text">
-        <h4>Explore Excellence</h4>
-        <h1>Welcome to <span class="highlight">LabubuWeb</span></h1>
+  <section class="hero" id="home">
+    <div class="text">
+      <h1>Selamat Datang di Aidan Burger</h1>
+      <p>Nikmati burger juicy, fresh, dan dibuat dengan bahan-bahan premium setiap harinya.</p>
+      <a href="#menu" class="btn">Lihat Menu</a>
+    </div>
+
+  </section>
+
+  <section class="menu-section" id="menu">
+    <h2>Menu </h2>
+    <p class="sub">Pilih burger favoritmu!</p>
+
+    <div class="menu-grid">
+
+      <div class="menu-card">
+        <img src="classic-burger.webp" alt="Classic Burger">
+        <h3>Classic Burger</h3>
+        <p>Burger klasik juicy dengan lapisan keju dan saus spesial.</p>
+        <span class="price">Rp 25.000</span>
+      </div>
+
+      <div class="menu-card">
+        <img src="burger2.png" alt="Cheese Blast">
+        <h3>Cheese Blast</h3>
+        <p>Keju ekstra meleleh yang bikin nagih setiap gigitan.</p>
+        <span class="price">Rp 30.000</span>
+      </div>
+
+      <div class="menu-card">
+        <img src="doble.png" alt="Double Beef">
+        <h3>Double Beef</h3>
+        <p>Dua lapis daging premium untuk pecinta protein.</p>
+        <span class="price">Rp 38.000</span>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Aidan Burger • All Rights Reserved
+  </footer>
+
+</body>
+</html>
